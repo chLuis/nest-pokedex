@@ -17,9 +17,9 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Levantar la seed
+5. Reconstruiri la base de datos con la semilla
 ```
-docker-compose up -d
+http://locahost:3000/api/v2/seed
 ```
 
 ## Stack usado
