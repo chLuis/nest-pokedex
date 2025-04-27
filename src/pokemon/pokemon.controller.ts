@@ -29,7 +29,7 @@ export class PokemonController {
   @Get()
   findAll(@Query() queryParameters: PaginationDto) {
     console.log({ queryParameters });
-    return this.pokemonService.findAll( queryParameters );
+    return this.pokemonService.findAll(queryParameters);
   }
 
   @Get(':term')
